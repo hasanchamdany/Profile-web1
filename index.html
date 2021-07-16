@@ -13,7 +13,7 @@
     </head>
 
 <body>
-    <div class="sidebar-container">
+    <div class="sidebar">
         <div class="logo-content">
             <div class="logo">
                 <i class='bx bx-home-circle'></i>
@@ -26,35 +26,46 @@
                         <i class='bx bx-user' ></i>
                         <span class="links_name">Short Profile</span>
                     </a>
-                    <!--span class="tooltip">Short Profile</span-->
+                    <span class="tooltip">Short Profile</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-book-alt' ></i>
-                        <span class="links_name">Educaation Track Record</span>
+                        <span class="links_name">Educaation</span>
                     </a>
-                    <!--span class="tooltip">Short Profile</span-->
+                    <span class="tooltip">Education</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-medal' ></i>
                         <span class="links_name">Achievement</span>
                     </a>
-                    <!--span class="tooltip">Short Profile</span-->
+                    <span class="tooltip">Achievement</span>
                 </li>
                 <li>
                     <a href="#">
                         <i class='bx bx-star' ></i>
                         <span class="links_name">Skills</span>
                     </a>
-                    <!--span class="tooltip">Short Profile</span-->
+                    <span class="tooltip">Skills</span>
                 </li>
             </ul>
         </div>
     </div>
 
+    <div class="Home_content">
+        <div class="text">Home Content</div>
+    </div>
 
-
+    <script>
+        let btn = document.querySelector("#btn");
+        let sidebar = document.querySelector(".sidebar");
+        
+        btn.OnClick = function(){
+            sidebar.classList.toggle("active");
+        }
+        
+    </script>
 
 
 </body>
