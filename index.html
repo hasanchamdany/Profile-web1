@@ -20,13 +20,14 @@
                 <div class="logo-name">Web Profile</div>
             </div>
             <i class='bx bx-menu' id="btn" ></i>
+        </div>
             <ul class="nav_list">
                 <li>
                     <a href="#">
                         <i class='bx bx-user' ></i>
-                        <span class="links_name">Short Profile</span>
+                        <span class="links_name">Profile</span>
                     </a>
-                    <span class="tooltip">Short Profile</span>
+                    <span class="tooltip">Profile</span>
                 </li>
                 <li>
                     <a href="#">
@@ -50,7 +51,6 @@
                     <span class="tooltip">Skills</span>
                 </li>
             </ul>
-        </div>
     </div>
 
     <div class="Home_content">
@@ -61,7 +61,7 @@
         let btn = document.querySelector("#btn");
         let sidebar = document.querySelector(".sidebar");
         
-        btn.OnClick = function(){
+        btn.onclick = function(){
             sidebar.classList.toggle("active");
         }
         
