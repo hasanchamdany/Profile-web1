@@ -186,3 +186,14 @@ body{
     width: calc(100% - 80px);
     left: 240px;
 }
+.Home_content .LandingPage .Heading1{
+    position: absolute;
+    margin-top: calc(1080px - 654px);
+    left: 1256px;
+
+}
+.Home_content .LandingPage .Heading2{
+    position: absolute;
+    margin-top: calc(1080px - 600px);
+    left: 1000px;
+}
