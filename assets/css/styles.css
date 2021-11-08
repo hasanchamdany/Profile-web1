@@ -179,8 +179,10 @@ body{
 }
 .Home_content .LandingPage .Profile1{
     position: absolute;
-    size: 80%;
-    left: 50px;
+    width: 292px;
+    height: 292px;
+    top: 271px;
+    left: 240px;
 }
 .sidebar.active ~ .Home_content{
     width: calc(100% - 80px);
